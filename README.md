@@ -1,17 +1,48 @@
-# React + Vite
+# CineFlow - Zamonaviy Kino Portali & Boshqaruv Markazi (Admin Panel)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+CineFlow — React 19, Vite va Tailwind CSS asosida yaratilgan zamonaviy, tezkor va interaktiv kinolar platformasi.
 
-Currently, two official plugins are available:
+## 🌟 Imkoniyatlar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎬 **Kinolar Katalogi**: Janrlar, sifat (4K / FHD) va yillar bo'yicha saralash va qidiruv tizimi.
+- 🚀 **Bosh Premyera (Hero Banner)**: Yuqori sifatli banner va to'g'ridan-to'g'ri treyler tomosha qilish.
+- 🔥 **Trend (Top 10)**: Eng ommabop va ko'p ko'rilgan filmlar vitrinasi.
+- 🌙 **Dark & Light Mode**: Mukammal moslashtirilgan quyuq va yorug' mavzu.
+- 🌐 **Ko'p tilli qo'llab-quvvatlash**: O'zbek, Rus va Ingliz tillari.
+- 🛡️ **Professional Admin Panel**:
+  - Real-vaqtli KPI ko'rsatkichlari (filmlar soni, ko'rishlar, IMDb reytinglari).
+  - Janrlar analitikasi va diagrammalar.
+  - 1-bosishda bosh premyera va trendlarga chiqarish imkoniyati.
+  - Filmlarni qo'shish, tahrirlash va xavfsiz o'chirish.
+  - Tomoshabinlar murojaatlari va Telegram bot integratsiyasi.
+- 🗄️ **Supabase Integratsiyasi**: Cloud ma'lumotlar bazasi va mahalliy fallback tizimi.
 
-## React Compiler
+## 🛠️ Texnologiyalar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, React Router v7
+- **Styling**: Tailwind CSS v4, Lucide React Icons
+- **Backend / Database**: Supabase (PostgreSQL)
+- **Bildirishnomalar**: Telegram Bot API
 
-## Expanding the Oxlint configuration
+## 🚀 O'rnatish va Ishga Tushirish
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# movie
+1. **Repozitoriyani yuklab olish:**
+   ```bash
+   git clone https://github.com/maqsudovorifxoja-beep/movie.git
+   cd movie
+   ```
+
+2. **Kutubxonalarni o'rnatish:**
+   ```bash
+   npm install
+   ```
+
+3. **Loyiha serverini ishga tushirish:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Production uchun yig'ish:**
+   ```bash
+   npm run build
+   ```
